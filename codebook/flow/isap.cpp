@@ -1,5 +1,5 @@
 #define SZ(c) ((int)(c).size())
-struct Maxflow {
+struct Maxflow { // O(V^2 * E)
   static const int MAXV = 20010;
   static const int INF  = 1000000;
   struct Edge {

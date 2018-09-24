@@ -1,4 +1,4 @@
-struct MinCostMaxFlow{
+struct MinCostMaxFlow{ // O(V^2 * F)
 typedef int Tcost;
   static const int MAXV = 20010;
   static const int INFf = 1000000;

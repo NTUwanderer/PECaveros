@@ -1,5 +1,5 @@
-// const int MAXN = 262144;
-// (must be 2^k)
+// const int MAXN = 262144; (must be 2^k)
+// O(n*log(n))
 // before any usage, run pre_fft() first
 typedef long double ld;
 typedef complex<ld> cplx;

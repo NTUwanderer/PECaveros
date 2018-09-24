@@ -1,4 +1,4 @@
-struct KM{
+struct KM{ // O(V^3)
 // Maximum Bipartite Weighted Matching (Perfect Match)
 	static const int MXN = 650;
 	static const int INF = 2147483647; // LL
