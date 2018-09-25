@@ -1,4 +1,4 @@
-struct Graph {
+struct Graph { // O(V*E*log(V))
   // Minimum General Weighted Matching (Perfect Match)
   static const int MXN = 105;
   int n, edge[MXN][MXN];

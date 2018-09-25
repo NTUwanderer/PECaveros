@@ -35,7 +35,7 @@ struct HLD{
       tr[u] = tr[v];
     }
   }
-  inline int lca(int a, int b){
+  inline int lca(int a, int b){ // O(log(V))
     if(dep[a] > dep[b]) swap(a, b);
     int diff = dep[b] - dep[a];
     REPD(k, LOG-1, 0) if(diff & (1<<k)){
@@ -54,14 +54,14 @@ struct HLD{
     g[ u ].push_back( v );
     g[ v ].push_back( u );
   }
-  void yutruli(){
+  void yutruli(){ // O(Vlog(V))
     dfssz(1, 0);
     ts = 0;
     dfshl(1);
     REP(k, 1, LOG-1) REP(i, 1, n)
       prt[i][k] = prt[prt[i][k-1]][k-1];
   }
-  vector< PII > getPath( int u , int v ){
+  vector< PII > getPath( int u , int v ){ // O((log(V))^2)
     vector< PII > res;
     while( tid[ u ] < tid[ head[ v ] ] ){
       res.push_back( PII(tid[ head[ v ] ] , tid[ v ]) );

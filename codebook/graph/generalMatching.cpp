@@ -1,5 +1,5 @@
 const int N = 514, E = (2e5) * 2;
-struct Graph{
+struct Graph{ // O(V^0.5 *  E) ...?
   int to[E],bro[E],head[N],e;
   int lnk[N],vis[N],stp,n;
   void init( int _n ){

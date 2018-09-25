@@ -1,4 +1,4 @@
-struct WeightGraph {
+struct WeightGraph { // O(V*E*log(V))
   static const int INF = INT_MAX;
   static const int N = 514;
   struct edge{

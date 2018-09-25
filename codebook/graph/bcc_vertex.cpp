@@ -1,4 +1,4 @@
-struct BccVertex {
+struct BccVertex { // O(V+E)
   int n,nScc,step,dfn[MXN],low[MXN];
   vector<int> E[MXN],sccv[MXN];
   int top,stk[MXN];

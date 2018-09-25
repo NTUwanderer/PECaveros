@@ -1,4 +1,4 @@
-struct Scc{
+struct Scc{ // O(V+E)
   int n, nScc, vst[MXN], bln[MXN];
   vector<int> E[MXN], rE[MXN], vec;
   void init(int _n){
