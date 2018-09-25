@@ -1,5 +1,5 @@
 const int N = 300010;
-struct SA{
+struct SA{ // O(N)
 #define REP(i,n) for ( int i=0; i<int(n); i++ )
 #define REP1(i,a,b) for ( int i=(a); i<=int(b); i++ )
   bool _t[N*2];

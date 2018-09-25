@@ -1,4 +1,4 @@
-struct BurrowsWheeler{
+struct BurrowsWheeler{ // O(N)
 #define SIGMA 26
 #define BASE 'a'
   vector<int> v[ SIGMA ];

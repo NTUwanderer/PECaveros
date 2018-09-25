@@ -1,4 +1,4 @@
-string mcp(string s){
+string mcp(string s){ // O(N)
   int n = s.length();
   s += s;
   int i=0, j=1;

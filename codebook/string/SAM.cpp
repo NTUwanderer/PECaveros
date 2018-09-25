@@ -1,5 +1,5 @@
 const int MAXM = 1000010;
-struct SAM{
+struct SAM{ // O(N)
   int tot, root, lst, mom[MAXM], mx[MAXM];
   int acc[MAXM], nxt[MAXM][33];
   int newNode(){

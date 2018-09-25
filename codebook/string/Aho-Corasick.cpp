@@ -1,4 +1,4 @@
-struct ACautomata{
+struct ACautomata{ // O(N)
   struct Node{
     int cnt,dp;
     Node *go[26], *fail;

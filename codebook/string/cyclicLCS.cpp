@@ -1,6 +1,7 @@
 #define L 0
 #define LU 1
 #define U 2
+// O(K*log(N)+R), K: # of matches, R: # of elements
 const int mov[3][2]={0,-1, -1,-1, -1,0};
 int al,bl;
 char a[MAXL*2],b[MAXL*2]; // 0-indexed

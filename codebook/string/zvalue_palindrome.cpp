@@ -1,6 +1,6 @@
 int len, zv[MAX*2];
 char ip[MAX], op[MAX*2];
-int main(){
+int main(){ // O(N)
 	cin >> ip; len = strlen(ip);
 	int l2 = len*2 - 1;
 	for(int i=0; i<l2; i++)
