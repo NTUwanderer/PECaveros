@@ -1,6 +1,6 @@
 #include <bits/extc++.h>
 using namespace __gnu_pbds;
-typedef tree<int,null_type,less<int>,rb_tree_tag,tree_order_statistics_node_update> set_t;
+typedef tree<int,null_type,less<int>,rb_tree_tag,tree_order_statistics_node_update> set_t; // less_equal
 #include <ext/pb_ds/assoc_container.hpp>
 typedef cc_hash_table<int,int> umap_t;
 typedef priority_queue<int> heap;

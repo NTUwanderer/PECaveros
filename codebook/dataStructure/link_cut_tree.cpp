@@ -1,6 +1,6 @@
 const int MXN = 100005;
 const int MEM = 100005;
-struct Splay {
+struct Splay { // Each operation: O(log(n))
   static Splay nil, mem[MEM], *pmem;
   Splay *ch[2], *f;
   int val, rev, size;

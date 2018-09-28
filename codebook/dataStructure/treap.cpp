@@ -1,4 +1,4 @@
-struct Treap{
+struct Treap{ // Each op: Av: O(log(n)), W: O(n)
 	int sz , val , pri , tag;
 	Treap *l , *r;
 	Treap( int _val ){
